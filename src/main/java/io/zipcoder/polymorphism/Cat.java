@@ -8,8 +8,9 @@ public class Cat extends Pet
     }
 
     @Override
-    public void speak()
+    public String speak()
     {
         System.out.println("Meow !!!");
+        return "Meow !!!";
     }
 }

@@ -4,6 +4,9 @@ public class Pet
 {
     public String name;
 
+    public Pet() {
+    }
+
     public String getName()
     {
         return name;
@@ -19,9 +22,10 @@ public class Pet
         this.name = name;
     }
 
-    public void speak()
+    public String speak()
     {
         System.out.println("Pet speaks !!!");
+        return "";
     }
 
 

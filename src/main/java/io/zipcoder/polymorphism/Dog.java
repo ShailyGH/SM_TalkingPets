@@ -8,9 +8,15 @@ public class Dog extends Pet
         super(name);
     }
 
+    public Dog()
+    {
+
+    }
+
     @Override
-    public void speak()
+    public String speak()
     {
         System.out.println("Woof !!!");
+        return "Woof !!!";
     }
 }
