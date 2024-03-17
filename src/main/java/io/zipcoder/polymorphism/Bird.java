@@ -7,7 +7,8 @@ public class Bird extends Pet
         super(name);
     }
 
-    public Bird() {
+    public Bird()
+    {
 
     }
 
