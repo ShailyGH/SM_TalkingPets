@@ -36,7 +36,7 @@ public class MainApplication
             }
             else if (typeOfPet.equalsIgnoreCase("dog"))
             {
-                System.out.println("Created Dog named " + nameOfPet + "as a pet");
+                System.out.println("Created Dog named " + nameOfPet + " as a pet");
                 Dog dog = new Dog(nameOfPet);
                 pets.add(dog);
             }
